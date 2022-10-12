@@ -24,5 +24,5 @@ if __name__ == '__main__':
     #      "--alluredir", report_path])
     # 解析测试报告，执行: allure serve {report_path}
     # os.system(f"allure serve {report_path}")
-    os.system(f"allure generate {report_path} -o ./Report/html")
+    os.system(f"allure generate {report_path} -o ./Report/html --clean")
     os.system(f"allure open ./report/html ")
