@@ -1,0 +1,42 @@
+2022-09-29 20:46:01,344 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'username')
+2022-09-29 20:46:01,368 - INFO basePage.py [line:111]: 在"None"输入"43347",元素定位:('id', 'username')
+2022-09-29 20:46:01,463 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'password')
+2022-09-29 20:46:01,495 - INFO basePage.py [line:111]: 在"None"输入"BW@jason8854",元素定位:('id', 'password')
+2022-09-29 20:46:01,559 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'firstPageAction')
+2022-09-29 20:46:01,575 - ERROR basePage.py [line:90]: 查找"None"元素失败,定位方式:('id', 'firstPageAction')
+Traceback (most recent call last):
+  File "D:\RiQingUITest\Common\basePage.py", line 88, in find_element
+    return self.driver.find_element(*loc)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 857, in find_element
+    'value': value})['value']
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="firstPageAction"]"}
+  (Session info: chrome=106.0.5249.62)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00D5DF13+2219795]
+	Ordinal0 [0x00CF2841+1779777]
+	Ordinal0 [0x00C0423D+803389]
+	Ordinal0 [0x00C33025+995365]
+	Ordinal0 [0x00C331EB+995819]
+	Ordinal0 [0x00C60F52+1183570]
+	Ordinal0 [0x00C4E844+1108036]
+	Ordinal0 [0x00C5F192+1175954]
+	Ordinal0 [0x00C4E616+1107478]
+	Ordinal0 [0x00C27F89+950153]
+	Ordinal0 [0x00C28F56+954198]
+	GetHandleVerifier [0x01052CB2+3040210]
+	GetHandleVerifier [0x01042BB4+2974420]
+	GetHandleVerifier [0x00DF6A0A+565546]
+	GetHandleVerifier [0x00DF5680+560544]
+	Ordinal0 [0x00CF9A5C+1808988]
+	Ordinal0 [0x00CFE3A8+1827752]
+	Ordinal0 [0x00CFE495+1827989]
+	Ordinal0 [0x00D080A4+1867940]
+	BaseThreadInitThunk [0x76C3FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76F57B5E+286]
+	RtlGetAppContainerNamedObjectPath [0x76F57B2E+238]
+

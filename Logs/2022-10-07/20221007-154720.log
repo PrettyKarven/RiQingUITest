@@ -1,0 +1,28 @@
+2022-10-07 15:47:20,731 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'username')
+2022-10-07 15:47:20,732 - INFO basePage.py [line:111]: 在"None"输入"43347",元素定位:('id', 'username')
+2022-10-07 15:47:20,822 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'password')
+2022-10-07 15:47:20,829 - INFO basePage.py [line:111]: 在"None"输入"BW@jason8854",元素定位:('id', 'password')
+2022-10-07 15:47:21,888 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'submit')
+2022-10-07 15:47:21,888 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'submit')
+2022-10-07 15:47:22,267 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'firstPageAction')
+2022-10-07 15:47:22,276 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'firstPageAction')
+2022-10-07 15:47:23,313 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-10-07 15:47:23,846 - INFO basePage.py [line:188]: 切换成功
+2022-10-07 15:47:26,857 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'insertDayPlan')
+2022-10-07 15:47:26,872 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'insertDayPlan')
+2022-10-07 15:47:29,970 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-10-07 15:47:30,486 - INFO basePage.py [line:188]: 切换成功
+2022-10-07 15:47:30,486 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[1]/div/div')
+2022-10-07 15:47:30,507 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[1]/div/div/dl/dd[text()="内控建设"]')
+2022-10-07 15:47:30,516 - INFO basePage.py [line:138]: 点击"None",元素定位:('xpath', '/html/body/div[2]/div/form/div[1]/div/div/dl/dd[text()="内控建设"]')
+2022-10-07 15:47:31,124 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div')
+2022-10-07 15:47:31,143 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div/dl/dd[text()="建设及其他成本"]')
+2022-10-07 15:47:31,154 - INFO basePage.py [line:138]: 点击"None",元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div/dl/dd[text()="建设及其他成本"]')
+2022-10-07 15:47:31,207 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'saveSumDayPlan')
+2022-10-07 15:47:31,220 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'saveSumDayPlan')
+2022-10-07 15:47:31,465 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-07 15:47:31,476 - INFO basePage.py [line:152]: 获取"None"元素文本内容，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-07 15:47:31,488 - INFO basePage.py [line:155]: 获取"None"元素文本内容为"提交成功",元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-07 15:47:31,488 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-07 15:47:31,495 - INFO basePage.py [line:152]: 获取"None"元素文本内容，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-07 15:47:31,501 - INFO basePage.py [line:155]: 获取"None"元素文本内容为"提交成功",元素定位:('xpath', '//*[@id="layui-layer2"]/div')

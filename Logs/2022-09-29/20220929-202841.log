@@ -1,0 +1,13 @@
+2022-09-29 20:28:41,310 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'username')
+2022-09-29 20:28:41,326 - INFO basePage.py [line:111]: 在"None"输入"43347",元素定位:('id', 'username')
+2022-09-29 20:28:41,485 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'password')
+2022-09-29 20:28:41,509 - INFO basePage.py [line:111]: 在"None"输入"BW@jason8854",元素定位:('id', 'password')
+2022-09-29 20:28:41,650 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'submit')
+2022-09-29 20:28:41,666 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'submit')
+2022-09-29 20:28:41,722 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '//*[@id="insertDayPlan"]')
+2022-09-29 20:28:48,760 - INFO basePage.py [line:138]: 点击"None",元素定位:('xpath', '//*[@id="insertDayPlan"]')
+2022-09-29 20:28:48,760 - ERROR basePage.py [line:142]: "None"点击失败
+Traceback (most recent call last):
+  File "D:\RiQingUITest\Common\basePage.py", line 140, in click_element
+    ele.click()
+AttributeError: 'NoneType' object has no attribute 'click'

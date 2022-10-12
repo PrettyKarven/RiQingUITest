@@ -1,0 +1,5 @@
+2022-10-10 15:39:54,276 - INFO conftest.py [line:12]: ==========开始 日清项目 执行测试===========
+2022-10-10 15:39:55,880 - INFO conftest.py [line:18]: ==========开始执行测试用例集===========
+2022-10-10 15:39:55,880 - INFO conftest.py [line:19]: ----------前置操作：登录日清系统-----------
+2022-10-10 15:39:55,880 - INFO conftest.py [line:22]: ---<selenium.webdriver.chrome.webdriver.WebDriver (session="576ce7cf9411369015e3881703c60d1b")>
+2022-10-10 15:39:58,566 - INFO conftest.py [line:18]: ==========结束 日清项目 测试===========

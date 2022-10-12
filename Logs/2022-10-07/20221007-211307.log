@@ -1,0 +1,18 @@
+2022-10-07 21:13:07,459 - INFO loginpage.py [line:29]: 【===登录操作===】
+2022-10-07 21:13:07,459 - INFO basePage.py [line:51]: 等待"姓名输入框"元素,定位方式:('id', 'username')
+2022-10-07 21:13:07,485 - INFO basePage.py [line:56]: 等待"姓名输入框"时长:0:00:00.025404
+2022-10-07 21:13:07,485 - INFO basePage.py [line:86]: 查找"姓名输入框"元素，元素定位:('id', 'username')
+2022-10-07 21:13:07,493 - INFO basePage.py [line:111]: 在"姓名输入框"输入"43347",元素定位:('id', 'username')
+2022-10-07 21:13:07,567 - INFO basePage.py [line:86]: 查找"密码框"元素，元素定位:('id', 'password')
+2022-10-07 21:13:07,574 - INFO basePage.py [line:111]: 在"密码框"输入"BW@jason8854",元素定位:('id', 'password')
+2022-10-07 21:13:07,626 - INFO basePage.py [line:86]: 查找"点击登录"元素，元素定位:('id', 'submit')
+2022-10-07 21:13:07,635 - INFO basePage.py [line:138]: 点击"点击登录",元素定位:('id', 'submit')
+2022-10-07 21:13:10,689 - INFO dayplanpage.py [line:38]: 【===添加日清操作===】
+2022-10-07 21:13:10,690 - INFO basePage.py [line:86]: 查找"<我的计划>按钮"元素，元素定位:('id', 'firstPageAction')
+2022-10-07 21:13:16,715 - INFO basePage.py [line:138]: 点击"<我的计划>按钮",元素定位:('id', 'firstPageAction')
+2022-10-07 21:13:17,756 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-10-07 21:13:18,289 - INFO basePage.py [line:188]: 切换成功
+2022-10-07 21:13:18,291 - INFO basePage.py [line:86]: 查找"添加按钮"元素，元素定位:('id', 'insertDayPlan')
+2022-10-07 21:13:18,300 - INFO basePage.py [line:138]: 点击"添加按钮",元素定位:('id', 'insertDayPlan')
+2022-10-07 21:13:26,159 - INFO conftest.py [line:26]: ==========结束执行测试用例集===========
+2022-10-07 21:13:30,291 - WARNING connectionpool.py [line:811]: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022396874588>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/69c1858e8f84f5decff2a60f3fc84661

@@ -1,0 +1,54 @@
+2022-10-11 07:47:06,283 - INFO conftest.py [line:12]: ==========开始 日清项目 执行测试===========
+2022-10-11 07:47:08,302 - INFO conftest.py [line:18]: ==========开始执行测试用例集===========
+2022-10-11 07:47:08,302 - INFO conftest.py [line:19]: ----------前置操作：登录日清系统-----------
+2022-10-11 07:47:08,302 - INFO conftest.py [line:22]: ---<selenium.webdriver.chrome.webdriver.WebDriver (session="d9beb6d4c69335f36a094146d8627710")>
+2022-10-11 07:47:08,694 - INFO loginpage.py [line:29]: 【===登录操作===】
+2022-10-11 07:47:08,694 - INFO basePage.py [line:51]: 等待"姓名输入框"元素,定位方式:('id', 'username')
+2022-10-11 07:47:08,802 - INFO basePage.py [line:56]: 等待"姓名输入框"时长:0:00:00.108230
+2022-10-11 07:47:08,802 - INFO basePage.py [line:86]: 查找"姓名输入框"元素，元素定位:('id', 'username')
+2022-10-11 07:47:08,817 - INFO basePage.py [line:111]: 在"姓名输入框"输入"43347",元素定位:('id', 'username')
+2022-10-11 07:47:09,002 - INFO basePage.py [line:86]: 查找"密码框"元素，元素定位:('id', 'password')
+2022-10-11 07:47:09,018 - INFO basePage.py [line:111]: 在"密码框"输入"BW@jason8854",元素定位:('id', 'password')
+2022-10-11 07:47:09,126 - INFO basePage.py [line:86]: 查找"点击登录"元素，元素定位:('id', 'submit')
+2022-10-11 07:47:09,142 - INFO basePage.py [line:138]: 点击"点击登录",元素定位:('id', 'submit')
+2022-10-11 07:47:09,749 - INFO basePage.py [line:141]: 点击"点击登录",点击成功
+2022-10-11 07:47:12,769 - INFO conftest.py [line:26]: ----------前置操作完成：登录日清系统-----------
+2022-10-11 07:47:12,780 - INFO dayplanpage.py [line:59]: 【===添加日清操作===】
+2022-10-11 07:47:12,780 - INFO basePage.py [line:86]: 查找"<我的计划>按钮"元素，元素定位:('id', 'firstPageAction')
+2022-10-11 07:47:12,795 - INFO basePage.py [line:138]: 点击"<我的计划>按钮",元素定位:('id', 'firstPageAction')
+2022-10-11 07:47:12,871 - INFO basePage.py [line:141]: 点击"<我的计划>按钮",点击成功
+2022-10-11 07:47:12,871 - INFO basePage.py [line:183]: iframe 切换操作:<我的计划iframe>
+2022-10-11 07:47:13,443 - INFO basePage.py [line:189]: 切换成功
+2022-10-11 07:47:13,443 - INFO basePage.py [line:86]: 查找"添加按钮"元素，元素定位:('id', 'insertDayPlan')
+2022-10-11 07:47:13,459 - INFO basePage.py [line:138]: 点击"添加按钮",元素定位:('id', 'insertDayPlan')
+2022-10-11 07:47:13,577 - INFO basePage.py [line:141]: 点击"添加按钮",点击成功
+2022-10-11 07:47:16,578 - INFO basePage.py [line:183]: iframe 切换操作:切换添加框iframe
+2022-10-11 07:47:17,110 - INFO basePage.py [line:189]: 切换成功
+2022-10-11 07:47:17,110 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[2]/div/div')
+2022-10-11 07:47:17,136 - INFO basePage.py [line:86]: 查找"选择大类"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[2]/div/div/dl/dd[text()="实施项目"]')
+2022-10-11 07:47:17,152 - INFO basePage.py [line:138]: 点击"选择大类",元素定位:('xpath', '/html/body/div[2]/div/form/div[2]/div/div/dl/dd[text()="实施项目"]')
+2022-10-11 07:47:17,325 - INFO basePage.py [line:141]: 点击"选择大类",点击成功
+2022-10-11 07:47:17,325 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[3]/div/div')
+2022-10-11 07:47:17,341 - INFO basePage.py [line:86]: 查找"选择中类"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[3]/div/div/dl/dd[text()="BW003(项目制)"]')
+2022-10-11 07:47:17,365 - INFO basePage.py [line:138]: 点击"选择中类",元素定位:('xpath', '/html/body/div[2]/div/form/div[3]/div/div/dl/dd[text()="BW003(项目制)"]')
+2022-10-11 07:47:17,477 - INFO basePage.py [line:141]: 点击"选择中类",点击成功
+2022-10-11 07:47:17,477 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[4]/div/div')
+2022-10-11 07:47:17,501 - INFO basePage.py [line:86]: 查找"选择小类"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[4]/div/div/dl/dd[text()="日清测试小类"]')
+2022-10-11 07:47:17,558 - INFO basePage.py [line:138]: 点击"选择小类",元素定位:('xpath', '/html/body/div[2]/div/form/div[4]/div/div/dl/dd[text()="日清测试小类"]')
+2022-10-11 07:47:17,722 - INFO basePage.py [line:141]: 点击"选择小类",点击成功
+2022-10-11 07:47:17,722 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div')
+2022-10-11 07:47:17,754 - INFO basePage.py [line:86]: 查找"建设成本类型"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div/dl/dd[text()="建设及其他成本"]')
+2022-10-11 07:47:17,778 - INFO basePage.py [line:138]: 点击"建设成本类型",元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div/dl/dd[text()="建设及其他成本"]')
+2022-10-11 07:47:17,917 - INFO basePage.py [line:141]: 点击"建设成本类型",点击成功
+2022-10-11 07:47:17,917 - INFO basePage.py [line:86]: 查找"计划内容"元素，元素定位:('id', 'PlanContent')
+2022-10-11 07:47:17,933 - INFO basePage.py [line:111]: 在"计划内容"输入"自动化测试计划内容<2022-10-11 07:47:17>",元素定位:('id', 'PlanContent')
+2022-10-11 07:47:18,108 - INFO basePage.py [line:86]: 查找"计划工时"元素，元素定位:('id', 'ChengNuoDate')
+2022-10-11 07:47:18,117 - INFO basePage.py [line:111]: 在"计划工时"输入"1",元素定位:('id', 'ChengNuoDate')
+2022-10-11 07:47:18,194 - INFO basePage.py [line:86]: 查找"提交成功"元素，元素定位:('id', 'saveSumDayPlan')
+2022-10-11 07:47:18,210 - INFO basePage.py [line:138]: 点击"提交成功",元素定位:('id', 'saveSumDayPlan')
+2022-10-11 07:47:18,364 - INFO basePage.py [line:141]: 点击"提交成功",点击成功
+2022-10-11 07:47:18,372 - INFO basePage.py [line:86]: 查找"获取消息提示框信息"元素，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-11 07:47:18,388 - INFO basePage.py [line:153]: 获取"获取消息提示框信息"元素文本内容，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-11 07:47:18,420 - INFO basePage.py [line:156]: 获取"获取消息提示框信息"元素文本内容为"可用工时2,已填写2 ,计划工时不能大于可用工时.",元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-11 07:47:18,476 - INFO conftest.py [line:28]: ==========结束执行测试用例集===========
+2022-10-11 07:47:20,844 - INFO conftest.py [line:18]: ==========结束 日清项目 测试===========

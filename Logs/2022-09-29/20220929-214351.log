@@ -1,0 +1,51 @@
+2022-09-29 21:43:51,405 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'username')
+2022-09-29 21:43:51,429 - INFO basePage.py [line:111]: 在"None"输入"43347",元素定位:('id', 'username')
+2022-09-29 21:43:51,621 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'password')
+2022-09-29 21:43:51,645 - INFO basePage.py [line:111]: 在"None"输入"BW@jason8854",元素定位:('id', 'password')
+2022-09-29 21:43:51,781 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'submit')
+2022-09-29 21:43:51,805 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'submit')
+2022-09-29 21:43:52,621 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'firstPageAction')
+2022-09-29 21:43:52,629 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'firstPageAction')
+2022-09-29 21:43:53,253 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-09-29 21:43:53,810 - INFO basePage.py [line:188]: 切换成功
+2022-09-29 21:43:53,810 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'insertDayPlan')
+2022-09-29 21:43:53,840 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'insertDayPlan')
+2022-09-29 21:43:53,993 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-09-29 21:44:06,928 - ERROR basePage.py [line:190]: iframe 切换失败!!!
+Traceback (most recent call last):
+  File "D:\RiQingUITest\Common\basePage.py", line 186, in switch_iframe
+    EC.frame_to_be_available_and_switch_to_it(frame_refer))
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\support\wait.py", line 81, in until
+    value = method(self._driver)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 256, in _predicate
+    driver.switch_to.frame(driver.find_element(*locator))
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 857, in find_element
+    'value': value})['value']
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 426, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 344, in execute
+    return self._request(command_info[0], url, body=data)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 366, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "E:\IT_Application\Python\python\lib\site-packages\urllib3\request.py", line 79, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "E:\IT_Application\Python\python\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "E:\IT_Application\Python\python\lib\site-packages\urllib3\poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "E:\IT_Application\Python\python\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "E:\IT_Application\Python\python\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\IT_Application\Python\python\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "E:\IT_Application\Python\python\lib\http\client.py", line 1369, in getresponse
+    response.begin()
+  File "E:\IT_Application\Python\python\lib\http\client.py", line 310, in begin
+    version, status, reason = self._read_status()
+  File "E:\IT_Application\Python\python\lib\http\client.py", line 271, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "E:\IT_Application\Python\python\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt

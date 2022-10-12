@@ -1,0 +1,42 @@
+2022-10-07 21:13:36,523 - INFO dayplanpage.py [line:38]: 【===添加日清操作===】
+2022-10-07 21:13:36,524 - INFO basePage.py [line:86]: 查找"<我的计划>按钮"元素，元素定位:('id', 'firstPageAction')
+2022-10-07 21:13:42,200 - INFO basePage.py [line:138]: 点击"<我的计划>按钮",元素定位:('id', 'firstPageAction')
+2022-10-07 21:13:43,264 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-10-07 21:13:43,792 - INFO basePage.py [line:188]: 切换成功
+2022-10-07 21:13:43,794 - INFO basePage.py [line:86]: 查找"添加按钮"元素，元素定位:('id', 'insertDayPlan')
+2022-10-07 21:13:43,807 - INFO basePage.py [line:138]: 点击"添加按钮",元素定位:('id', 'insertDayPlan')
+2022-10-07 21:13:46,888 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-10-07 21:14:17,413 - ERROR basePage.py [line:190]: iframe 切换失败!!!
+Traceback (most recent call last):
+  File "D:\RiQingUITest\Common\basePage.py", line 186, in switch_iframe
+    EC.frame_to_be_available_and_switch_to_it(frame_refer))
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\support\wait.py", line 90, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0089DF13+2219795]
+	Ordinal0 [0x00832841+1779777]
+	Ordinal0 [0x0074423D+803389]
+	Ordinal0 [0x00773025+995365]
+	Ordinal0 [0x007731EB+995819]
+	Ordinal0 [0x007A0F52+1183570]
+	Ordinal0 [0x0078E844+1108036]
+	Ordinal0 [0x0079F192+1175954]
+	Ordinal0 [0x0078E616+1107478]
+	Ordinal0 [0x00767F89+950153]
+	Ordinal0 [0x00768F56+954198]
+	GetHandleVerifier [0x00B92CB2+3040210]
+	GetHandleVerifier [0x00B82BB4+2974420]
+	GetHandleVerifier [0x00936A0A+565546]
+	GetHandleVerifier [0x00935680+560544]
+	Ordinal0 [0x00839A5C+1808988]
+	Ordinal0 [0x0083E3A8+1827752]
+	Ordinal0 [0x0083E495+1827989]
+	Ordinal0 [0x008480A4+1867940]
+	BaseThreadInitThunk [0x775FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777E7B5E+286]
+	RtlGetAppContainerNamedObjectPath [0x777E7B2E+238]
+
+2022-10-07 21:14:17,478 - INFO conftest.py [line:26]: ==========结束执行测试用例集===========
+2022-10-07 21:14:19,644 - INFO conftest.py [line:19]: ==========结束 日清项目 测试===========

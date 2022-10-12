@@ -1,0 +1,59 @@
+2022-10-10 16:28:36,333 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'username')
+2022-10-10 16:28:36,349 - INFO basePage.py [line:111]: 在"None"输入"43347",元素定位:('id', 'username')
+2022-10-10 16:28:36,467 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'password')
+2022-10-10 16:28:36,494 - INFO basePage.py [line:111]: 在"None"输入"BW@jason8854",元素定位:('id', 'password')
+2022-10-10 16:28:37,610 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'submit')
+2022-10-10 16:28:37,626 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'submit')
+2022-10-10 16:28:38,326 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'firstPageAction')
+2022-10-10 16:28:38,350 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'firstPageAction')
+2022-10-10 16:28:39,131 - INFO basePage.py [line:182]: iframe 切换操作:None
+2022-10-10 16:28:39,707 - INFO basePage.py [line:188]: 切换成功
+2022-10-10 16:28:42,713 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'insertDayPlan')
+2022-10-10 16:28:42,713 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'insertDayPlan')
+2022-10-10 16:28:45,860 - INFO basePage.py [line:182]: iframe 切换操作:None
+2022-10-10 16:28:46,416 - INFO basePage.py [line:188]: 切换成功
+2022-10-10 16:28:46,416 - INFO basePage.py [line:86]: 查找"搜索大类"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[2]/div/div/div/input')
+2022-10-10 16:28:46,431 - INFO basePage.py [line:111]: 在"搜索大类"输入"实施项目",元素定位:('xpath', '/html/body/div[2]/div/form/div[2]/div/div/div/input')
+2022-10-10 16:28:46,575 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div')
+2022-10-10 16:28:46,599 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div/dl/dd[text()="建设及其他成本"]')
+2022-10-10 16:28:46,623 - INFO basePage.py [line:138]: 点击"None",元素定位:('xpath', '/html/body/div[2]/div/form/div[5]/div/div/dl/dd[text()="建设及其他成本"]')
+2022-10-10 16:28:46,747 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'saveSumDayPlan')
+2022-10-10 16:28:46,771 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'saveSumDayPlan')
+2022-10-10 16:28:52,100 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '//*[@id="layui-layer2"]/div')
+2022-10-10 16:29:22,153 - ERROR basePage.py [line:90]: 查找"None"元素失败,定位方式:('xpath', '//*[@id="layui-layer2"]/div')
+Traceback (most recent call last):
+  File "D:\RiQingUITest\Common\basePage.py", line 88, in find_element
+    return self.driver.find_element(*loc)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 857, in find_element
+    'value': value})['value']
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "E:\IT_Application\Python\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="layui-layer2"]/div"}
+  (Session info: chrome=106.0.5249.62)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0089DF13+2219795]
+	Ordinal0 [0x00832841+1779777]
+	Ordinal0 [0x0074423D+803389]
+	Ordinal0 [0x00773025+995365]
+	Ordinal0 [0x007731EB+995819]
+	Ordinal0 [0x007A0F52+1183570]
+	Ordinal0 [0x0078E844+1108036]
+	Ordinal0 [0x0079F192+1175954]
+	Ordinal0 [0x0078E616+1107478]
+	Ordinal0 [0x00767F89+950153]
+	Ordinal0 [0x00768F56+954198]
+	GetHandleVerifier [0x00B92CB2+3040210]
+	GetHandleVerifier [0x00B82BB4+2974420]
+	GetHandleVerifier [0x00936A0A+565546]
+	GetHandleVerifier [0x00935680+560544]
+	Ordinal0 [0x00839A5C+1808988]
+	Ordinal0 [0x0083E3A8+1827752]
+	Ordinal0 [0x0083E495+1827989]
+	Ordinal0 [0x008480A4+1867940]
+	BaseThreadInitThunk [0x775FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777E7B5E+286]
+	RtlGetAppContainerNamedObjectPath [0x777E7B2E+238]
+

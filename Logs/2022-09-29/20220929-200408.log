@@ -1,0 +1,9 @@
+2022-09-29 20:04:08,739 - INFO loginpage.py [line:29]: 【===登录操作===】
+2022-09-29 20:04:08,739 - INFO basePage.py [line:51]: 等待"姓名输入框"元素,定位方式:('id', 'username')
+2022-09-29 20:04:08,786 - INFO basePage.py [line:56]: 等待"姓名输入框"时长:0:00:00.046878
+2022-09-29 20:04:08,786 - INFO basePage.py [line:86]: 查找"姓名输入框"元素，元素定位:('id', 'username')
+2022-09-29 20:04:08,802 - INFO basePage.py [line:111]: 在"姓名输入框"输入"43347",元素定位:('id', 'username')
+2022-09-29 20:04:08,992 - INFO basePage.py [line:86]: 查找"密码框"元素，元素定位:('id', 'password')
+2022-09-29 20:04:09,008 - INFO basePage.py [line:111]: 在"密码框"输入"BW@jason8854",元素定位:('id', 'password')
+2022-09-29 20:04:09,120 - INFO basePage.py [line:86]: 查找"点击登录"元素，元素定位:('id', 'submit')
+2022-09-29 20:04:09,139 - INFO basePage.py [line:138]: 点击"点击登录",元素定位:('id', 'submit')

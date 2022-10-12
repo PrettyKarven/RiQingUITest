@@ -1,0 +1,13 @@
+2022-09-30 11:28:32,421 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'username')
+2022-09-30 11:28:32,445 - INFO basePage.py [line:111]: 在"None"输入"43347",元素定位:('id', 'username')
+2022-09-30 11:28:32,545 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'password')
+2022-09-30 11:28:32,561 - INFO basePage.py [line:111]: 在"None"输入"BW@jason8854",元素定位:('id', 'password')
+2022-09-30 11:28:33,644 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'submit')
+2022-09-30 11:28:33,659 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'submit')
+2022-09-30 11:28:34,202 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'firstPageAction')
+2022-09-30 11:28:34,218 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'firstPageAction')
+2022-09-30 11:28:34,992 - INFO basePage.py [line:182]: iframe 切换操作:
+2022-09-30 11:28:35,565 - INFO basePage.py [line:188]: 切换成功
+2022-09-30 11:28:38,568 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('id', 'insertDayPlan')
+2022-09-30 11:28:38,584 - INFO basePage.py [line:138]: 点击"None",元素定位:('id', 'insertDayPlan')
+2022-09-30 11:28:41,738 - INFO basePage.py [line:86]: 查找"None"元素，元素定位:('xpath', '/html/body/div[29]/div[2]/')
