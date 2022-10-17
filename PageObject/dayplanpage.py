@@ -3,6 +3,8 @@
 # @Author  : CuiShuangqi
 # @Email   : 1159533975@qq.com
 # @File    : baiduIndex.py
+from selenium.webdriver import Keys
+
 from Common.basePage import BasePage
 from selenium.webdriver.common.by import By
 from time import sleep
@@ -51,7 +53,8 @@ class DayplanIndex(BasePage):
     msg=(By.XPATH,'//*[@id="layui-layer2"]/div')
     #删除按钮元素
     deletedayplan_ele=(By.XPATH,'/html/body/div[2]/div[1]/div[1]/button[2]')
-
+    #删除输入框
+    searchinpt_ele=(By.ID,'searchWord')
 
 
     #打开添加日清弹出框
@@ -136,7 +139,7 @@ class DayplanIndex(BasePage):
         self.driver.implicitly_wait(10)
 
     #删除第一条日计划
-    def delete_daplan(self):
+    def delete_myplan(self):
         self.logger.info("【===删除第一条日计划操作===】")
         # 点击左侧导航栏<我的计划>按钮
         self.click_element(self.myplan_ele, model='<我的计划>按钮')
@@ -146,12 +149,32 @@ class DayplanIndex(BasePage):
         self.switch_iframe(self.myplan_iframe, model='<我的计划iframe>')
         # 设置元素等待
         self.driver.implicitly_wait(30)
-        #选择第一条日清
-        self.setAttribute(self.find_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div')),'class','layui-unselect layui-form-checkbox layui-form-checked')
+        # #选择第一条日清
+        # self.setAttribute(self.find_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div')),'class','layui-unselect layui-form-checkbox layui-form-checked')
+        #选中第一条数据
+        self.click_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]'))
         #点击删除按钮
         self.click_element(self.deletedayplan_ele,model='删除第一条日清')
+        #点击确认按钮
+        self.click_element((By.XPATH, '//*[@id="layui-layer1"]/div[3]/a[1]'))
         # 设置元素等待
         self.driver.implicitly_wait(30)
+
+    #查询日清
+    def query_myplan(self,searchWord='hahah '):
+        self.logger.info("【===查询日计划操作===】")
+        # 点击左侧导航栏<我的计划>按钮
+        self.click_element(self.myplan_ele, model='<我的计划>按钮')
+        # 设置元素等待
+        self.driver.implicitly_wait(30)
+        # 切换到我的计划iframe
+        self.switch_iframe(self.myplan_iframe, model='<我的计划iframe>')
+        # 设置元素等待
+        self.driver.implicitly_wait(30)
+        #输入检索内容
+        self.input_text(self.searchinpt_ele,searchWord,model='输入搜索内容')
+        #回车操作
+        self.find_element(self.searchinpt_ele).send_keys(Keys.ENTER)
 
 
     #获取提示消息

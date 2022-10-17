@@ -8,7 +8,7 @@ from PageObject.dayplanpage import DayplanIndex
 logger = MyLog().getLog()
 
 
-@pytest.fixture(scope='class')
+@pytest.fixture(scope='module')
 def start_session(project_session_start):
     '''
     所有模块只打开一次浏览器
@@ -24,5 +24,5 @@ def start_session(project_session_start):
     LoginIndex(driver).login()
     MP = DayplanIndex(driver)
     logger.info("----------前置操作完成：登录日清系统-----------")
-    yield (driver, MP)
+    yield (driver, MP, logger)
     logger.info("==========结束执行测试用例集===========")

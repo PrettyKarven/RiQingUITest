@@ -1,1 +1,1 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","name":"packages","children":[]}
+{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","name":"packages","children":[{"name":"TestCase.dayplancase.test_dayplan","children":[{"name":"test_queryriqing","uid":"28e2098fe21df352","parentUid":"f8c651e5c935bcdd73025932373ae69c","status":"passed","time":{"start":1665987923220,"stop":1665987933881,"duration":10661},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"TestCase.dayplancase.test_dayplan"}]}
