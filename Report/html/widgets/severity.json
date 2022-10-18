@@ -1,1 +1,11 @@
-[{"uid":"28e2098fe21df352","name":"test_queryriqing","time":{"start":1665987923220,"stop":1665987933881,"duration":10661},"status":"passed","severity":"normal"}]
+[ {
+  "uid" : "2f0a6ffddebe6357",
+  "name" : "test_queryplan",
+  "time" : {
+    "start" : 1666083544692,
+    "stop" : 1666083544692,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

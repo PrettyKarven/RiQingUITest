@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Oct 17 14:25:23 CST 2022","Mon Oct 17 14:25:33 CST 2022","10661","TestCase.dayplancase","test_dayplan","TestQueryMyPlan","","","test_queryriqing",""
+"broken","Tue Oct 18 16:59:04 CST 2022","Tue Oct 18 16:59:04 CST 2022","0","TestCase.plananalysiscase","test_dayplan","TestQueryPlan","","","test_queryplan",""

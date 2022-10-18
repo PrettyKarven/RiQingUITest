@@ -1,1 +1,26 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[]}
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "查询",
+    "children" : [ {
+      "name" : "查询大类",
+      "children" : [ {
+        "name" : "test_queryplan",
+        "uid" : "2f0a6ffddebe6357",
+        "parentUid" : "ece73f62a4791bf9a12782d6fff42349",
+        "status" : "broken",
+        "time" : {
+          "start" : 1666083544692,
+          "stop" : 1666083544692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ece73f62a4791bf9a12782d6fff42349"
+    } ],
+    "uid" : "234146dd1c667efa09bb9a2ca6e6d894"
+  } ]
+}

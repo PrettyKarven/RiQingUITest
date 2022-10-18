@@ -1,1 +1,26 @@
-{"uid":"4b4757e66a1912dae1a509f688f20b0f","name":"categories","children":[]}
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: query_plan() missing 1 required positional argument: 'search_key'",
+      "children" : [ {
+        "name" : "test_queryplan",
+        "uid" : "2f0a6ffddebe6357",
+        "parentUid" : "2cdcba98f64cf9d0ac5612e5b1d5581e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1666083544692,
+          "stop" : 1666083544692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cdcba98f64cf9d0ac5612e5b1d5581e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

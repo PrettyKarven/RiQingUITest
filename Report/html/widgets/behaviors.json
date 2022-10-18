@@ -1,1 +1,15 @@
-{"total":1,"items":[{"uid":"f11cae1e3bb5cfb31559ed27800f4861","name":"查询计划","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "234146dd1c667efa09bb9a2ca6e6d894",
+    "name" : "查询",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,1 +1,22 @@
-{"670f03bf97728ac853447e941b3a97ce":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"28e2098fe21df352","status":"passed","time":{"start":1665987923220,"stop":1665987933881,"duration":10661}}]}}
+{
+  "eed093f1d00b0540336b6093246a1b1e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f0a6ffddebe6357",
+      "status" : "broken",
+      "statusDetails" : "TypeError: query_plan() missing 1 required positional argument: 'search_key'",
+      "time" : {
+        "start" : 1666083544692,
+        "stop" : 1666083544692,
+        "duration" : 0
+      }
+    } ]
+  }
+}
