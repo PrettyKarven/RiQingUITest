@@ -1,22 +1,48 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
-    "name" : "TestCase.plananalysiscase.test_dayplan",
+    "name" : "TestCase.dayplancase.test_dayplan",
     "children" : [ {
-      "name" : "test_queryplan",
-      "uid" : "2f0a6ffddebe6357",
-      "parentUid" : "507aeba45fa5520174969199891cc6a7",
+      "name" : "test_addriqing[data0]",
+      "uid" : "37c7069b92184e1f",
+      "parentUid" : "f8c651e5c935bcdd73025932373ae69c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1666169069013,
+        "stop" : 1666169073942,
+        "duration" : 4929
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'dalei': '系统维护', 'zhonglei': '数据分析运维', 'xiaolei': '资金管理分析', 'chengnuodate': 1}" ]
+    }, {
+      "name" : "test_delriqing",
+      "uid" : "5ba889ee684474dd",
+      "parentUid" : "f8c651e5c935bcdd73025932373ae69c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1666169073990,
+        "stop" : 1666169081237,
+        "duration" : 7247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_queryriqing",
+      "uid" : "8cdca4963766f52a",
+      "parentUid" : "f8c651e5c935bcdd73025932373ae69c",
       "status" : "broken",
       "time" : {
-        "start" : 1666083544692,
-        "stop" : 1666083544692,
-        "duration" : 0
+        "start" : 1666169081246,
+        "stop" : 1666169111312,
+        "duration" : 30066
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "TestCase.plananalysiscase.test_dayplan"
-  } ]
+    "uid" : "TestCase.dayplancase.test_dayplan"
+  } ],
+  "name" : "packages"
 }

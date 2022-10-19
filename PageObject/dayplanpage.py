@@ -50,7 +50,9 @@ class DayplanIndex(BasePage):
     #提交按钮元素
     submitplanbtn_ele=(By.ID,'saveSumDayPlan')
     #添加后消息提示框元素
-    msg=(By.XPATH,'//*[@id="layui-layer2"]/div')
+    # msg=(By.XPATH,'//*[@id="layui-layer2"]/div')
+    msg=(By.XPATH,'//*[starts-with(@id,"layui-layer")]/div')
+    # msg=(By.XPATH,'/html/body/div[4]')
     #删除按钮元素
     deletedayplan_ele=(By.XPATH,'/html/body/div[2]/div[1]/div[1]/button[2]')
     #删除输入框
@@ -83,7 +85,7 @@ class DayplanIndex(BasePage):
         self.driver.implicitly_wait(30)
 
     # 添加计划外日清操作，选择常用小类
-    def addriqing_unplanned(self):
+    def addriqing_commonxiaoleiele(self):
         self.base_operation()
         # 修改常用小类下拉框的属性为选中
         # self.setAttribute(self.commonxiaolei_ele,'class','layui-form-select layui-form-selected')
@@ -101,6 +103,39 @@ class DayplanIndex(BasePage):
         self.click_element(self.submitplanbtn_ele,model='提交成功')
         # 搜索后等待界面加载完成
         self.driver.implicitly_wait(10)
+
+    def addriqing_unplanned(self,dalei='实施项目',zhonglei='BW003(项目制)',xiaolei='日清测试小类',chengnuodate=1):
+        self.base_operation()
+        # 修改大类下拉框的属性为选中
+        self.setAttribute(self.find_element(self.dalei_select), 'class', 'layui-form-select layui-form-selected')
+        # 选择大类
+        dalei_elelist = list(self.dalei_ele)
+        dalei_elelist[1] = self.dalei_ele[1].format(dalei)
+        self.click_element(tuple(dalei_elelist), model='选择大类')
+        # 修改中类下拉框的属性为选中
+        self.setAttribute(self.find_element(self.zhonglei_select), 'class', 'layui-form-select layui-form-selected')
+        # 选择中类
+        zhonglei_elelist = list(self.zhonglei_ele)
+        zhonglei_elelist[1] = self.zhonglei_ele[1].format(zhonglei)
+        self.click_element(tuple(zhonglei_elelist), model='选择中类')
+        # 修改小类下拉框的属性为选中
+        self.setAttribute(self.find_element(self.xiaolei_select), 'class', 'layui-form-select layui-form-selected')
+        # 选择小类
+        xiaolei_elelist = list(self.xiaolei_ele)
+        xiaolei_elelist[1] = self.xiaolei_ele[1].format(xiaolei)
+        self.click_element(tuple(xiaolei_elelist), model='选择小类')
+        # 修改成本类型下拉框的选中属性
+        # self.setAttribute(self.costtype_ele,'class','layui-form-select layui-form-selected')
+        self.setAttribute(self.find_element(self.costtype_ele),'class','layui-form-select layui-form-selected')
+        # 选择建设类型
+        list_ele = list(self.costitem_ele)
+        list_ele[1] = self.costitem_ele[1].format('建设及其他成本')
+        self.click_element(tuple(list_ele),model='建设成本类型')
+        # 点击提交按钮
+        self.click_element(self.submitplanbtn_ele,model='提交成功')
+        # 搜索后等待界面加载完成
+        self.driver.implicitly_wait(10)
+
 
     #添加计划内日清,手动选择大中小类
     def addriqing_planned(self,dalei='实施项目',zhonglei='BW003(项目制)',xiaolei='日清测试小类',chengnuodate=1):
@@ -152,11 +187,11 @@ class DayplanIndex(BasePage):
         # #选择第一条日清
         # self.setAttribute(self.find_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div')),'class','layui-unselect layui-form-checkbox layui-form-checked')
         #选中第一条数据
-        self.click_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]'))
+        self.click_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]'),model='选择第一条数据')
         #点击删除按钮
         self.click_element(self.deletedayplan_ele,model='删除第一条日清')
         #点击确认按钮
-        self.click_element((By.XPATH, '//*[@id="layui-layer1"]/div[3]/a[1]'))
+        self.click_element((By.XPATH, '/html/body/div[5]/div[3]/a[1]'),model='点击删除按钮')
         # 设置元素等待
         self.driver.implicitly_wait(30)
 

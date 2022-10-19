@@ -15,7 +15,7 @@ def start_session(project_session_start):
     :param project_session_start: 所有模块只打开一次浏览器
     :return: driver MP
     '''
-    logger.info("==========开始执行测试用例集===========")
+    logger.info("==========开始执行***计划分析***测试用例集===========")
     logger.info("----------前置操作：登录日清系统-----------")
     global driver
     driver = project_session_start
@@ -25,4 +25,4 @@ def start_session(project_session_start):
     PA = PlananalysisIndex(driver)
     logger.info("----------前置操作完成：登录日清系统-----------")
     yield (driver, PA, logger)
-    logger.info("==========结束执行测试用例集===========")
+    logger.info("==========结束***计划分析***测试用例集===========")

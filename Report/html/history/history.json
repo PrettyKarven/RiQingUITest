@@ -1,5 +1,5 @@
 {
-  "eed093f1d00b0540336b6093246a1b1e" : {
+  "670f03bf97728ac853447e941b3a97ce" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -9,13 +9,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2f0a6ffddebe6357",
+      "uid" : "8cdca4963766f52a",
       "status" : "broken",
-      "statusDetails" : "TypeError: query_plan() missing 1 required positional argument: 'search_key'",
+      "statusDetails" : "FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'E:\\\\GitRepertory\\\\Screenshots\\\\2022-10-19'",
       "time" : {
-        "start" : 1666083544692,
-        "stop" : 1666083544692,
-        "duration" : 0
+        "start" : 1666169081246,
+        "stop" : 1666169111312,
+        "duration" : 30066
+      }
+    } ]
+  },
+  "cf03fd62ebe7185bd91236b79d0cd6be" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ba889ee684474dd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '删除成功' == '信息'\n  - 信息\n  + 删除成功",
+      "time" : {
+        "start" : 1666169073990,
+        "stop" : 1666169081237,
+        "duration" : 7247
+      }
+    } ]
+  },
+  "ea0248cad8148f733d3cc95e3716a9bf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37c7069b92184e1f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '提交成功' == ''\n  + 提交成功",
+      "time" : {
+        "start" : 1666169069013,
+        "stop" : 1666169073942,
+        "duration" : 4929
       }
     } ]
   }

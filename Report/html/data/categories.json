@@ -1,26 +1,64 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "TypeError: query_plan() missing 1 required positional argument: 'search_key'",
+      "name" : "AssertionError: assert '提交成功' == ''\n  + 提交成功",
       "children" : [ {
-        "name" : "test_queryplan",
-        "uid" : "2f0a6ffddebe6357",
-        "parentUid" : "2cdcba98f64cf9d0ac5612e5b1d5581e",
-        "status" : "broken",
+        "name" : "test_addriqing[data0]",
+        "uid" : "37c7069b92184e1f",
+        "parentUid" : "f9d834e94ee4a0d72c9280be654becc3",
+        "status" : "failed",
         "time" : {
-          "start" : 1666083544692,
-          "stop" : 1666083544692,
-          "duration" : 0
+          "start" : 1666169069013,
+          "stop" : 1666169073942,
+          "duration" : 4929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'dalei': '系统维护', 'zhonglei': '数据分析运维', 'xiaolei': '资金管理分析', 'chengnuodate': 1}" ]
+      } ],
+      "uid" : "f9d834e94ee4a0d72c9280be654becc3"
+    }, {
+      "name" : "AssertionError: assert '删除成功' == '信息'\n  - 信息\n  + 删除成功",
+      "children" : [ {
+        "name" : "test_delriqing",
+        "uid" : "5ba889ee684474dd",
+        "parentUid" : "07ec88ee82b2d3d7489e394a90c66285",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666169073990,
+          "stop" : 1666169081237,
+          "duration" : 7247
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2cdcba98f64cf9d0ac5612e5b1d5581e"
+      "uid" : "07ec88ee82b2d3d7489e394a90c66285"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'E:\\\\GitRepertory\\\\Screenshots\\\\2022-10-19'",
+      "children" : [ {
+        "name" : "test_queryriqing",
+        "uid" : "8cdca4963766f52a",
+        "parentUid" : "c4345c4a3a8569c4ca2a163b97119e88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1666169081246,
+          "stop" : 1666169111312,
+          "duration" : 30066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4345c4a3a8569c4ca2a163b97119e88"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  } ],
+  "name" : "categories"
 }

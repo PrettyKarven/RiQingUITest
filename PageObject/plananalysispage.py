@@ -21,17 +21,18 @@ class PlananalysisIndex(BasePage):
     #计划分析元素
     planal_ele= (By.XPATH,'/html/body/div[1]/div[2]/div/ul[1]/li[1]/dl/dd[2]/a')
     #计划分析iframe
-    planal_iframe= (By.XPATH,'/html/body/div[1]/div[3]/div[1]/div/div[4]/iframe')
+    planal_iframe= (By.XPATH,'/html/body/div[1]/div[3]/div[1]/div/div[2]/iframe')
+
 
     # 查询操作
-    def query_plan(self, search_key):
+    def query_plan(self):
         self.logger.info("【===搜索大类操作===】")
-        # 点击左侧导航栏<我的计划>按钮
-        self.click_element(self.planal_ele, model='<我的计划>按钮')
+        # 点击左侧导航栏<计划分析>按钮
+        self.click_element(self.planal_ele, model='<计划分析>按钮')
         # 设置元素等待
         self.driver.implicitly_wait(30)
-        # 切换到我的计划iframe
-        self.switch_iframe(self.planal_iframe, model='<我的计划iframe>')
+        # 切换到计划分析iframe
+        self.switch_iframe(self.planal_iframe, model='<计划分析iframe>')
         # 设置元素等待
         self.driver.implicitly_wait(30)
         #点击搜索

@@ -1,26 +1,68 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
-    "name" : "查询",
+    "name" : "新建计划",
     "children" : [ {
-      "name" : "查询大类",
+      "name" : "如果9点之前新建计划内，否则新建计划内",
       "children" : [ {
-        "name" : "test_queryplan",
-        "uid" : "2f0a6ffddebe6357",
-        "parentUid" : "ece73f62a4791bf9a12782d6fff42349",
-        "status" : "broken",
+        "name" : "test_addriqing[data0]",
+        "uid" : "37c7069b92184e1f",
+        "parentUid" : "36a7d0c14e339614006199814310df0f",
+        "status" : "failed",
         "time" : {
-          "start" : 1666083544692,
-          "stop" : 1666083544692,
-          "duration" : 0
+          "start" : 1666169069013,
+          "stop" : 1666169073942,
+          "duration" : 4929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'dalei': '系统维护', 'zhonglei': '数据分析运维', 'xiaolei': '资金管理分析', 'chengnuodate': 1}" ]
+      } ],
+      "uid" : "36a7d0c14e339614006199814310df0f"
+    } ],
+    "uid" : "33cac2ab38195ed373f90c6d37970e73"
+  }, {
+    "name" : "删除计划",
+    "children" : [ {
+      "name" : "删除第一条日计划",
+      "children" : [ {
+        "name" : "test_delriqing",
+        "uid" : "5ba889ee684474dd",
+        "parentUid" : "bc3bb2688becc4831e0076f150db09f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666169073990,
+          "stop" : 1666169081237,
+          "duration" : 7247
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ece73f62a4791bf9a12782d6fff42349"
+      "uid" : "bc3bb2688becc4831e0076f150db09f4"
     } ],
-    "uid" : "234146dd1c667efa09bb9a2ca6e6d894"
-  } ]
+    "uid" : "7bd95a210f04370f0efa66fa38195a74"
+  }, {
+    "name" : "查询计划",
+    "children" : [ {
+      "name" : "查询日计划",
+      "children" : [ {
+        "name" : "test_queryriqing",
+        "uid" : "8cdca4963766f52a",
+        "parentUid" : "4334a21bb7b7d8ae92eb038fc07af67c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1666169081246,
+          "stop" : 1666169111312,
+          "duration" : 30066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4334a21bb7b7d8ae92eb038fc07af67c"
+    } ],
+    "uid" : "f11cae1e3bb5cfb31559ed27800f4861"
+  } ],
+  "name" : "behaviors"
 }

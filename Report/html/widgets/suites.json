@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "54f730d88c93858c275908aebfb64674",
-    "name" : "TestCase.plananalysiscase",
+    "uid" : "75202da7dc7389e1d91d0d84952e2314",
+    "name" : "TestCase.dayplancase",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 2,
       "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   } ]
 }

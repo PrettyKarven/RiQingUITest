@@ -278,6 +278,17 @@ class BasePage(object):
         """
         self.driver.execute_script("arguments[0].setAttribute(arguments[1],arguments[2])", elementObj, attributeName, value)
 
+
+    #判断元素是否存在
+    def isElementExist(self,loc, model=None):
+        flag=True
+        try:
+            self.driver.find_element(*loc)
+            return flag
+        except:
+            flag=False
+            return flag
+
     # 退出
     def get_driver(self):
         return self.driver

@@ -1,11 +1,31 @@
 [ {
-  "uid" : "2f0a6ffddebe6357",
-  "name" : "test_queryplan",
+  "uid" : "5ba889ee684474dd",
+  "name" : "test_delriqing",
   "time" : {
-    "start" : 1666083544692,
-    "stop" : 1666083544692,
-    "duration" : 0
+    "start" : 1666169073990,
+    "stop" : 1666169081237,
+    "duration" : 7247
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cdca4963766f52a",
+  "name" : "test_queryriqing",
+  "time" : {
+    "start" : 1666169081246,
+    "stop" : 1666169111312,
+    "duration" : 30066
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "37c7069b92184e1f",
+  "name" : "test_addriqing[data0]",
+  "time" : {
+    "start" : 1666169069013,
+    "stop" : 1666169073942,
+    "duration" : 4929
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

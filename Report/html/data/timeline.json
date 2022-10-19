@@ -1,26 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "DESKTOP-F0Q3TIM",
     "children" : [ {
-      "name" : "48928-MainThread",
+      "name" : "48752-MainThread",
       "children" : [ {
-        "name" : "test_queryplan",
-        "uid" : "2f0a6ffddebe6357",
-        "parentUid" : "429e3274b0a0f8243c7acb96d30cc5a1",
+        "name" : "test_addriqing[data0]",
+        "uid" : "37c7069b92184e1f",
+        "parentUid" : "6509acb10bcef76dc615d2ee61e36c0c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666169069013,
+          "stop" : 1666169073942,
+          "duration" : 4929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'dalei': '系统维护', 'zhonglei': '数据分析运维', 'xiaolei': '资金管理分析', 'chengnuodate': 1}" ]
+      }, {
+        "name" : "test_delriqing",
+        "uid" : "5ba889ee684474dd",
+        "parentUid" : "6509acb10bcef76dc615d2ee61e36c0c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666169073990,
+          "stop" : 1666169081237,
+          "duration" : 7247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_queryriqing",
+        "uid" : "8cdca4963766f52a",
+        "parentUid" : "6509acb10bcef76dc615d2ee61e36c0c",
         "status" : "broken",
         "time" : {
-          "start" : 1666083544692,
-          "stop" : 1666083544692,
-          "duration" : 0
+          "start" : 1666169081246,
+          "stop" : 1666169111312,
+          "duration" : 30066
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "429e3274b0a0f8243c7acb96d30cc5a1"
+      "uid" : "6509acb10bcef76dc615d2ee61e36c0c"
     } ],
     "uid" : "4cc818c6cef30d8c826be6c49feffb9e"
-  } ]
+  } ],
+  "name" : "timeline"
 }

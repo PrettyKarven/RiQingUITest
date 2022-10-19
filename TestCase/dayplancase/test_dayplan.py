@@ -12,6 +12,7 @@ from selenium import webdriver
 from PageObject.loginpage import LoginIndex
 from PageObject.dayplanpage import DayplanIndex
 import datetime
+from TestDatas.DayPlan_Datas import add_riiqng_datas as ar
 
 
 @allure.feature("新建计划")
@@ -19,14 +20,15 @@ import datetime
 class TestAddMyPlan:
     @allure.story("如果9点之前新建计划内，否则新建计划内")
     @pytest.mark.addriqing
+    @pytest.mark.parametrize("data",ar.riqing_data)
     # @pytest.mark.run(order=2)
-    def test_addriqing(self,start_session):
+    def test_addriqing(self,start_session,data):
         if datetime.datetime.now().hour < 9:
             start_session[2].info("【===创建计划内日计划===】")
-            start_session[1].addriqing_planned()
+            start_session[1].addriqing_planned(dalei=data["dalei"],zhonglei=data["zhonglei"],xiaolei=data["xiaolei"],chengnuodate=data["chengnuodate"])
         else:
             start_session[2].info("【===创建计划外日计划===】")
-            start_session[1].addriqing_unplanned()
+            start_session[1].addriqing_unplanned(dalei=data["dalei"],zhonglei=data["zhonglei"],xiaolei=data["xiaolei"],chengnuodate=data["chengnuodate"])
         assert "提交成功" == start_session[1].getmsg()
 
 @allure.feature("删除计划")
@@ -44,17 +46,4 @@ class TestQueryMyPlan:
 
 
 
-if __name__ == '__main__':
-    # 当前时间
-    now_time = time.strftime('%Y%m%d-%H%M%S', time.localtime(time.time()))
-    # allure 测试报告路径
-    cur_path = os.path.dirname(os.path.realpath(__file__))
-    report_path = os.path.join(os.path.dirname(cur_path), f'Report\\{now_time}')
-    print(111)
-    # -s : 打印信息
-    # -m ：运行含标签的用例
-    pytest.main(["-vs", "-m", "test_dayplan.py::TestDeleteMyPlan", "--alluredir",'../report'])
-    # TODO 执行: allure serve ./Report 解析测试报告
-    os.system(f"allure serve {report_path}")
-    # 执行多个标签
-    # pytest.main(["-s", "-m", "login or test_demo", "test_001_login.py::TestLogin"])
+
