@@ -9,53 +9,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8cdca4963766f52a",
+      "uid" : "a4e25123b2093fad",
       "status" : "broken",
-      "statusDetails" : "FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'E:\\\\GitRepertory\\\\Screenshots\\\\2022-10-19'",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"firstPageAction\"]\"}\n  (Session info: chrome=106.0.5249.119)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0073DF13+2219795]\n\tOrdinal0 [0x006D2841+1779777]\n\tOrdinal0 [0x005E423D+803389]\n\tOrdinal0 [0x00613025+995365]\n\tOrdinal0 [0x006131EB+995819]\n\tOrdinal0 [0x00640F52+1183570]\n\tOrdinal0 [0x0062E844+1108036]\n\tOrdinal0 [0x0063F192+1175954]\n\tOrdinal0 [0x0062E616+1107478]\n\tOrdinal0 [0x00607F89+950153]\n\tOrdinal0 [0x00608F56+954198]\n\tGetHandleVerifier [0x00A32CB2+3040210]\n\tGetHandleVerifier [0x00A22BB4+2974420]\n\tGetHandleVerifier [0x007D6A0A+565546]\n\tGetHandleVerifier [0x007D5680+560544]\n\tOrdinal0 [0x006D9A5C+1808988]\n\tOrdinal0 [0x006DE3A8+1827752]\n\tOrdinal0 [0x006DE495+1827989]\n\tOrdinal0 [0x006E80A4+1867940]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
       "time" : {
-        "start" : 1666169081246,
-        "stop" : 1666169111312,
-        "duration" : 30066
+        "start" : 1667552331962,
+        "stop" : 1667552364403,
+        "duration" : 32441
       }
     } ]
   },
   "cf03fd62ebe7185bd91236b79d0cd6be" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ba889ee684474dd",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '删除成功' == '信息'\n  - 信息\n  + 删除成功",
+      "uid" : "99c373456b9a1ba4",
+      "status" : "passed",
       "time" : {
-        "start" : 1666169073990,
-        "stop" : 1666169081237,
-        "duration" : 7247
+        "start" : 1667552328544,
+        "stop" : 1667552331962,
+        "duration" : 3418
       }
     } ]
   },
   "ea0248cad8148f733d3cc95e3716a9bf" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "37c7069b92184e1f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '提交成功' == ''\n  + 提交成功",
+      "uid" : "eac0dcbac038620d",
+      "status" : "passed",
       "time" : {
-        "start" : 1666169069013,
-        "stop" : 1666169073942,
-        "duration" : 4929
+        "start" : 1667552322378,
+        "stop" : 1667552328528,
+        "duration" : 6150
       }
     } ]
   }

@@ -4,10 +4,10 @@
     "uid" : "75202da7dc7389e1d91d0d84952e2314",
     "name" : "TestCase.dayplancase",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 3
     }

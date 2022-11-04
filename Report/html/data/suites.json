@@ -1,5 +1,6 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "TestCase.dayplancase",
     "children" : [ {
@@ -8,13 +9,13 @@
         "name" : "TestAddMyPlan",
         "children" : [ {
           "name" : "test_addriqing[data0]",
-          "uid" : "37c7069b92184e1f",
+          "uid" : "eac0dcbac038620d",
           "parentUid" : "8d2db482a95e0b10d8bd824d98998bce",
-          "status" : "failed",
+          "status" : "passed",
           "time" : {
-            "start" : 1666169069013,
-            "stop" : 1666169073942,
-            "duration" : 4929
+            "start" : 1667552322378,
+            "stop" : 1667552328528,
+            "duration" : 6150
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,13 +26,13 @@
         "name" : "TestDeleteMyPlan",
         "children" : [ {
           "name" : "test_delriqing",
-          "uid" : "5ba889ee684474dd",
+          "uid" : "99c373456b9a1ba4",
           "parentUid" : "c44ed00dec0a3c6952a5293d184215a8",
-          "status" : "failed",
+          "status" : "passed",
           "time" : {
-            "start" : 1666169073990,
-            "stop" : 1666169081237,
-            "duration" : 7247
+            "start" : 1667552328544,
+            "stop" : 1667552331962,
+            "duration" : 3418
           },
           "flaky" : false,
           "newFailed" : false,
@@ -42,13 +43,13 @@
         "name" : "TestQueryMyPlan",
         "children" : [ {
           "name" : "test_queryriqing",
-          "uid" : "8cdca4963766f52a",
+          "uid" : "a4e25123b2093fad",
           "parentUid" : "398081608bf2cdb1d37c1135c9bac3e0",
           "status" : "broken",
           "time" : {
-            "start" : 1666169081246,
-            "stop" : 1666169111312,
-            "duration" : 30066
+            "start" : 1667552331962,
+            "stop" : 1667552364403,
+            "duration" : 32441
           },
           "flaky" : false,
           "newFailed" : false,
@@ -59,6 +60,5 @@
       "uid" : "0d4bb9fb94ba6ee2c2f9b7312c906bb0"
     } ],
     "uid" : "75202da7dc7389e1d91d0d84952e2314"
-  } ],
-  "name" : "suites"
+  } ]
 }
