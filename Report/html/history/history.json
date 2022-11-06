@@ -1,4 +1,24 @@
 {
+  "cf03fd62ebe7185bd91236b79d0cd6be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5353fb11ea37a887",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"我的计划\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003CACD3+2075859]\n\tOrdinal0 [0x0035EE61+1633889]\n\tOrdinal0 [0x0025B7BD+571325]\n\tOrdinal0 [0x0028AC2F+764975]\n\tOrdinal0 [0x0028AE1B+765467]\n\tOrdinal0 [0x002BD0F2+970994]\n\tOrdinal0 [0x002A7364+881508]\n\tOrdinal0 [0x002BB56A+963946]\n\tOrdinal0 [0x002A7136+880950]\n\tOrdinal0 [0x0027FEFD+720637]\n\tOrdinal0 [0x00280F3F+724799]\n\tGetHandleVerifier [0x0067EED2+2769538]\n\tGetHandleVerifier [0x00670D95+2711877]\n\tGetHandleVerifier [0x0045A03A+521194]\n\tGetHandleVerifier [0x00458DA0+516432]\n\tOrdinal0 [0x0036682C+1665068]\n\tOrdinal0 [0x0036B128+1683752]\n\tOrdinal0 [0x0036B215+1683989]\n\tOrdinal0 [0x00376484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
+      "time" : {
+        "start" : 1667720857375,
+        "stop" : 1667720887668,
+        "duration" : 30293
+      }
+    } ]
+  },
   "670f03bf97728ac853447e941b3a97ce" : {
     "statistic" : {
       "failed" : 0,
@@ -9,51 +29,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a4e25123b2093fad",
+      "uid" : "2f0c2780f5fb735c",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"firstPageAction\"]\"}\n  (Session info: chrome=106.0.5249.119)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0073DF13+2219795]\n\tOrdinal0 [0x006D2841+1779777]\n\tOrdinal0 [0x005E423D+803389]\n\tOrdinal0 [0x00613025+995365]\n\tOrdinal0 [0x006131EB+995819]\n\tOrdinal0 [0x00640F52+1183570]\n\tOrdinal0 [0x0062E844+1108036]\n\tOrdinal0 [0x0063F192+1175954]\n\tOrdinal0 [0x0062E616+1107478]\n\tOrdinal0 [0x00607F89+950153]\n\tOrdinal0 [0x00608F56+954198]\n\tGetHandleVerifier [0x00A32CB2+3040210]\n\tGetHandleVerifier [0x00A22BB4+2974420]\n\tGetHandleVerifier [0x007D6A0A+565546]\n\tGetHandleVerifier [0x007D5680+560544]\n\tOrdinal0 [0x006D9A5C+1808988]\n\tOrdinal0 [0x006DE3A8+1827752]\n\tOrdinal0 [0x006DE495+1827989]\n\tOrdinal0 [0x006E80A4+1867940]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"我的计划\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003CACD3+2075859]\n\tOrdinal0 [0x0035EE61+1633889]\n\tOrdinal0 [0x0025B7BD+571325]\n\tOrdinal0 [0x0028AC2F+764975]\n\tOrdinal0 [0x0028AE1B+765467]\n\tOrdinal0 [0x002BD0F2+970994]\n\tOrdinal0 [0x002A7364+881508]\n\tOrdinal0 [0x002BB56A+963946]\n\tOrdinal0 [0x002A7136+880950]\n\tOrdinal0 [0x0027FEFD+720637]\n\tOrdinal0 [0x00280F3F+724799]\n\tGetHandleVerifier [0x0067EED2+2769538]\n\tGetHandleVerifier [0x00670D95+2711877]\n\tGetHandleVerifier [0x0045A03A+521194]\n\tGetHandleVerifier [0x00458DA0+516432]\n\tOrdinal0 [0x0036682C+1665068]\n\tOrdinal0 [0x0036B128+1683752]\n\tOrdinal0 [0x0036B215+1683989]\n\tOrdinal0 [0x00376484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
       "time" : {
-        "start" : 1667552331962,
-        "stop" : 1667552364403,
-        "duration" : 32441
-      }
-    } ]
-  },
-  "cf03fd62ebe7185bd91236b79d0cd6be" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "99c373456b9a1ba4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1667552328544,
-        "stop" : 1667552331962,
-        "duration" : 3418
+        "start" : 1667720887715,
+        "stop" : 1667720919953,
+        "duration" : 32238
       }
     } ]
   },
   "ea0248cad8148f733d3cc95e3716a9bf" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eac0dcbac038620d",
-      "status" : "passed",
+      "uid" : "c0f4954ca9bf8226",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"insertDayPlan\"]\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003CACD3+2075859]\n\tOrdinal0 [0x0035EE61+1633889]\n\tOrdinal0 [0x0025B7BD+571325]\n\tOrdinal0 [0x0028AC2F+764975]\n\tOrdinal0 [0x0028AE1B+765467]\n\tOrdinal0 [0x002BD0F2+970994]\n\tOrdinal0 [0x002A7364+881508]\n\tOrdinal0 [0x002BB56A+963946]\n\tOrdinal0 [0x002A7136+880950]\n\tOrdinal0 [0x0027FEFD+720637]\n\tOrdinal0 [0x00280F3F+724799]\n\tGetHandleVerifier [0x0067EED2+2769538]\n\tGetHandleVerifier [0x00670D95+2711877]\n\tGetHandleVerifier [0x0045A03A+521194]\n\tGetHandleVerifier [0x00458DA0+516432]\n\tOrdinal0 [0x0036682C+1665068]\n\tOrdinal0 [0x0036B128+1683752]\n\tOrdinal0 [0x0036B215+1683989]\n\tOrdinal0 [0x00376484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
       "time" : {
-        "start" : 1667552322378,
-        "stop" : 1667552328528,
-        "duration" : 6150
+        "start" : 1667720826285,
+        "stop" : 1667720857212,
+        "duration" : 30927
       }
     } ]
   }

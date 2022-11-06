@@ -16,7 +16,8 @@ class DayplanIndex(BasePage):
     页面元素
     """
     # 左侧导航栏<我的计划>按钮
-    myplan_ele=(By.ID, "firstPageAction")
+    # myplan_ele=(By.ID, "firstPageAction")
+    myplan_ele=(By.LINK_TEXT, "我的计划")
     #我的计划iframe元素
     myplan_iframe=(By.XPATH, "/html/body/div[1]/div[3]/div[1]/div/div[1]/iframe")
     #添加按钮元素
