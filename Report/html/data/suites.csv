@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sun Nov 06 15:47:06 CST 2022","Sun Nov 06 15:47:37 CST 2022","30927","TestCase.dayplancase","test_dayplan","TestAddMyPlan","","","test_addriqing[data0]",""
-"broken","Sun Nov 06 15:48:07 CST 2022","Sun Nov 06 15:48:39 CST 2022","32238","TestCase.dayplancase","test_dayplan","TestQueryMyPlan","","","test_queryriqing",""
-"broken","Sun Nov 06 15:47:37 CST 2022","Sun Nov 06 15:48:07 CST 2022","30293","TestCase.dayplancase","test_dayplan","TestDeleteMyPlan","","","test_delriqing",""
+"passed","Tue Nov 08 16:37:17 CST 2022","Tue Nov 08 16:37:22 CST 2022","5527","TestCase.dayplancase","test_dayplan","TestDeleteMyPlan","","","test_delriqing",""
+"broken","Tue Nov 08 16:37:22 CST 2022","Tue Nov 08 16:37:54 CST 2022","32294","TestCase.dayplancase","test_dayplan","TestQueryMyPlan","","","test_queryriqing",""
+"passed","Tue Nov 08 16:37:10 CST 2022","Tue Nov 08 16:37:16 CST 2022","6034","TestCase.dayplancase","test_dayplan","TestAddMyPlan","","","test_addriqing[data0]",""

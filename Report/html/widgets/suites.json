@@ -5,9 +5,9 @@
     "name" : "TestCase.dayplancase",
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 3
     }

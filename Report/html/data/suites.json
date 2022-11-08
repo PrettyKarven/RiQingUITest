@@ -9,13 +9,13 @@
         "name" : "TestAddMyPlan",
         "children" : [ {
           "name" : "test_addriqing[data0]",
-          "uid" : "c0f4954ca9bf8226",
+          "uid" : "12c01d651e8bcbb8",
           "parentUid" : "8d2db482a95e0b10d8bd824d98998bce",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1667720826285,
-            "stop" : 1667720857212,
-            "duration" : 30927
+            "start" : 1667896630948,
+            "stop" : 1667896636982,
+            "duration" : 6034
           },
           "flaky" : false,
           "newFailed" : false,
@@ -26,13 +26,13 @@
         "name" : "TestDeleteMyPlan",
         "children" : [ {
           "name" : "test_delriqing",
-          "uid" : "5353fb11ea37a887",
+          "uid" : "d37915baa215549c",
           "parentUid" : "c44ed00dec0a3c6952a5293d184215a8",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1667720857375,
-            "stop" : 1667720887668,
-            "duration" : 30293
+            "start" : 1667896637000,
+            "stop" : 1667896642527,
+            "duration" : 5527
           },
           "flaky" : false,
           "newFailed" : false,
@@ -43,13 +43,13 @@
         "name" : "TestQueryMyPlan",
         "children" : [ {
           "name" : "test_queryriqing",
-          "uid" : "2f0c2780f5fb735c",
+          "uid" : "1bce3b0ddf157fba",
           "parentUid" : "398081608bf2cdb1d37c1135c9bac3e0",
           "status" : "broken",
           "time" : {
-            "start" : 1667720887715,
-            "stop" : 1667720919953,
-            "duration" : 32238
+            "start" : 1667896642530,
+            "stop" : 1667896674824,
+            "duration" : 32294
           },
           "flaky" : false,
           "newFailed" : false,

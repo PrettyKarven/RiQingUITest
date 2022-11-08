@@ -1,24 +1,4 @@
 {
-  "cf03fd62ebe7185bd91236b79d0cd6be" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5353fb11ea37a887",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"我的计划\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003CACD3+2075859]\n\tOrdinal0 [0x0035EE61+1633889]\n\tOrdinal0 [0x0025B7BD+571325]\n\tOrdinal0 [0x0028AC2F+764975]\n\tOrdinal0 [0x0028AE1B+765467]\n\tOrdinal0 [0x002BD0F2+970994]\n\tOrdinal0 [0x002A7364+881508]\n\tOrdinal0 [0x002BB56A+963946]\n\tOrdinal0 [0x002A7136+880950]\n\tOrdinal0 [0x0027FEFD+720637]\n\tOrdinal0 [0x00280F3F+724799]\n\tGetHandleVerifier [0x0067EED2+2769538]\n\tGetHandleVerifier [0x00670D95+2711877]\n\tGetHandleVerifier [0x0045A03A+521194]\n\tGetHandleVerifier [0x00458DA0+516432]\n\tOrdinal0 [0x0036682C+1665068]\n\tOrdinal0 [0x0036B128+1683752]\n\tOrdinal0 [0x0036B215+1683989]\n\tOrdinal0 [0x00376484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
-      "time" : {
-        "start" : 1667720857375,
-        "stop" : 1667720887668,
-        "duration" : 30293
-      }
-    } ]
-  },
   "670f03bf97728ac853447e941b3a97ce" : {
     "statistic" : {
       "failed" : 0,
@@ -29,33 +9,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2f0c2780f5fb735c",
+      "uid" : "1bce3b0ddf157fba",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"我的计划\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003CACD3+2075859]\n\tOrdinal0 [0x0035EE61+1633889]\n\tOrdinal0 [0x0025B7BD+571325]\n\tOrdinal0 [0x0028AC2F+764975]\n\tOrdinal0 [0x0028AE1B+765467]\n\tOrdinal0 [0x002BD0F2+970994]\n\tOrdinal0 [0x002A7364+881508]\n\tOrdinal0 [0x002BB56A+963946]\n\tOrdinal0 [0x002A7136+880950]\n\tOrdinal0 [0x0027FEFD+720637]\n\tOrdinal0 [0x00280F3F+724799]\n\tGetHandleVerifier [0x0067EED2+2769538]\n\tGetHandleVerifier [0x00670D95+2711877]\n\tGetHandleVerifier [0x0045A03A+521194]\n\tGetHandleVerifier [0x00458DA0+516432]\n\tOrdinal0 [0x0036682C+1665068]\n\tOrdinal0 [0x0036B128+1683752]\n\tOrdinal0 [0x0036B215+1683989]\n\tOrdinal0 [0x00376484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"我的计划\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003FACD3+2075859]\n\tOrdinal0 [0x0038EE61+1633889]\n\tOrdinal0 [0x0028B7BD+571325]\n\tOrdinal0 [0x002BAC2F+764975]\n\tOrdinal0 [0x002BAE1B+765467]\n\tOrdinal0 [0x002ED0F2+970994]\n\tOrdinal0 [0x002D7364+881508]\n\tOrdinal0 [0x002EB56A+963946]\n\tOrdinal0 [0x002D7136+880950]\n\tOrdinal0 [0x002AFEFD+720637]\n\tOrdinal0 [0x002B0F3F+724799]\n\tGetHandleVerifier [0x006AEED2+2769538]\n\tGetHandleVerifier [0x006A0D95+2711877]\n\tGetHandleVerifier [0x0048A03A+521194]\n\tGetHandleVerifier [0x00488DA0+516432]\n\tOrdinal0 [0x0039682C+1665068]\n\tOrdinal0 [0x0039B128+1683752]\n\tOrdinal0 [0x0039B215+1683989]\n\tOrdinal0 [0x003A6484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
       "time" : {
-        "start" : 1667720887715,
-        "stop" : 1667720919953,
-        "duration" : 32238
+        "start" : 1667896642530,
+        "stop" : 1667896674824,
+        "duration" : 32294
+      }
+    } ]
+  },
+  "cf03fd62ebe7185bd91236b79d0cd6be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d37915baa215549c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667896637000,
+        "stop" : 1667896642527,
+        "duration" : 5527
       }
     } ]
   },
   "ea0248cad8148f733d3cc95e3716a9bf" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c0f4954ca9bf8226",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"insertDayPlan\"]\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x003CACD3+2075859]\n\tOrdinal0 [0x0035EE61+1633889]\n\tOrdinal0 [0x0025B7BD+571325]\n\tOrdinal0 [0x0028AC2F+764975]\n\tOrdinal0 [0x0028AE1B+765467]\n\tOrdinal0 [0x002BD0F2+970994]\n\tOrdinal0 [0x002A7364+881508]\n\tOrdinal0 [0x002BB56A+963946]\n\tOrdinal0 [0x002A7136+880950]\n\tOrdinal0 [0x0027FEFD+720637]\n\tOrdinal0 [0x00280F3F+724799]\n\tGetHandleVerifier [0x0067EED2+2769538]\n\tGetHandleVerifier [0x00670D95+2711877]\n\tGetHandleVerifier [0x0045A03A+521194]\n\tGetHandleVerifier [0x00458DA0+516432]\n\tOrdinal0 [0x0036682C+1665068]\n\tOrdinal0 [0x0036B128+1683752]\n\tOrdinal0 [0x0036B215+1683989]\n\tOrdinal0 [0x00376484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
+      "uid" : "12c01d651e8bcbb8",
+      "status" : "passed",
       "time" : {
-        "start" : 1667720826285,
-        "stop" : 1667720857212,
-        "duration" : 30927
+        "start" : 1667896630948,
+        "stop" : 1667896636982,
+        "duration" : 6034
       }
     } ]
   }

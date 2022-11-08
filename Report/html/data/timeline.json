@@ -4,48 +4,48 @@
   "children" : [ {
     "name" : "DESKTOP-F0Q3TIM",
     "children" : [ {
-      "name" : "37244-MainThread",
+      "name" : "33196-MainThread",
       "children" : [ {
-        "name" : "test_queryriqing",
-        "uid" : "2f0c2780f5fb735c",
-        "parentUid" : "49cca739b4f12ac3058ea9d5296064fc",
-        "status" : "broken",
+        "name" : "test_delriqing",
+        "uid" : "d37915baa215549c",
+        "parentUid" : "77c240658c2fb688d3ba5190a71fbbff",
+        "status" : "passed",
         "time" : {
-          "start" : 1667720887715,
-          "stop" : 1667720919953,
-          "duration" : 32238
+          "start" : 1667896637000,
+          "stop" : 1667896642527,
+          "duration" : 5527
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_addriqing[data0]",
-        "uid" : "c0f4954ca9bf8226",
-        "parentUid" : "49cca739b4f12ac3058ea9d5296064fc",
-        "status" : "broken",
+        "uid" : "12c01d651e8bcbb8",
+        "parentUid" : "77c240658c2fb688d3ba5190a71fbbff",
+        "status" : "passed",
         "time" : {
-          "start" : 1667720826285,
-          "stop" : 1667720857212,
-          "duration" : 30927
+          "start" : 1667896630948,
+          "stop" : 1667896636982,
+          "duration" : 6034
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'dalei': '系统维护', 'zhonglei': '数据分析运维', 'xiaolei': '资金管理分析', 'chengnuodate': 1}" ]
       }, {
-        "name" : "test_delriqing",
-        "uid" : "5353fb11ea37a887",
-        "parentUid" : "49cca739b4f12ac3058ea9d5296064fc",
+        "name" : "test_queryriqing",
+        "uid" : "1bce3b0ddf157fba",
+        "parentUid" : "77c240658c2fb688d3ba5190a71fbbff",
         "status" : "broken",
         "time" : {
-          "start" : 1667720857375,
-          "stop" : 1667720887668,
-          "duration" : 30293
+          "start" : 1667896642530,
+          "stop" : 1667896674824,
+          "duration" : 32294
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "49cca739b4f12ac3058ea9d5296064fc"
+      "uid" : "77c240658c2fb688d3ba5190a71fbbff"
     } ],
     "uid" : "4cc818c6cef30d8c826be6c49feffb9e"
   } ]

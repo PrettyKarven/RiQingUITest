@@ -7,13 +7,13 @@
       "name" : "如果9点之前新建计划内，否则新建计划内",
       "children" : [ {
         "name" : "test_addriqing[data0]",
-        "uid" : "c0f4954ca9bf8226",
+        "uid" : "12c01d651e8bcbb8",
         "parentUid" : "36a7d0c14e339614006199814310df0f",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1667720826285,
-          "stop" : 1667720857212,
-          "duration" : 30927
+          "start" : 1667896630948,
+          "stop" : 1667896636982,
+          "duration" : 6034
         },
         "flaky" : false,
         "newFailed" : false,
@@ -28,13 +28,13 @@
       "name" : "删除第一条日计划",
       "children" : [ {
         "name" : "test_delriqing",
-        "uid" : "5353fb11ea37a887",
+        "uid" : "d37915baa215549c",
         "parentUid" : "bc3bb2688becc4831e0076f150db09f4",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1667720857375,
-          "stop" : 1667720887668,
-          "duration" : 30293
+          "start" : 1667896637000,
+          "stop" : 1667896642527,
+          "duration" : 5527
         },
         "flaky" : false,
         "newFailed" : false,
@@ -49,13 +49,13 @@
       "name" : "查询日计划",
       "children" : [ {
         "name" : "test_queryriqing",
-        "uid" : "2f0c2780f5fb735c",
+        "uid" : "1bce3b0ddf157fba",
         "parentUid" : "4334a21bb7b7d8ae92eb038fc07af67c",
         "status" : "broken",
         "time" : {
-          "start" : 1667720887715,
-          "stop" : 1667720919953,
-          "duration" : 32238
+          "start" : 1667896642530,
+          "stop" : 1667896674824,
+          "duration" : 32294
         },
         "flaky" : false,
         "newFailed" : false,
