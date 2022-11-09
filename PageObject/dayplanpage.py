@@ -188,7 +188,6 @@ class DayplanIndex(BasePage):
         # #选择第一条日清
         # self.setAttribute(self.find_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]/td[1]/div/div')),'class','layui-unselect layui-form-checkbox layui-form-checked')
         #选中第一条数据
-        sleep(3)
         self.click_element((By.XPATH,'/html/body/div[2]/div[2]/div[1]/div[2]/table/tbody/tr[1]'),model='选择第一条数据')
         #点击删除按钮
         self.click_element(self.deletedayplan_ele,model='删除第一条日清')
