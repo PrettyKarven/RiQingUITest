@@ -2,25 +2,25 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "查询计划",
+    "name" : "新建周计划",
     "children" : [ {
-      "name" : "查询日计划",
+      "name" : "新建周计划",
       "children" : [ {
-        "name" : "test_queryriqing",
-        "uid" : "ebb47294539ee25c",
-        "parentUid" : "4334a21bb7b7d8ae92eb038fc07af67c",
-        "status" : "passed",
+        "name" : "test_addweekplan",
+        "uid" : "480e8880d1c9eba9",
+        "parentUid" : "dc608e34f7a2d38e18999adfa6927fe6",
+        "status" : "broken",
         "time" : {
-          "start" : 1667981965753,
-          "stop" : 1667981968464,
-          "duration" : 2711
+          "start" : 1668069726373,
+          "stop" : 1668069757742,
+          "duration" : 31369
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4334a21bb7b7d8ae92eb038fc07af67c"
+      "uid" : "dc608e34f7a2d38e18999adfa6927fe6"
     } ],
-    "uid" : "f11cae1e3bb5cfb31559ed27800f4861"
+    "uid" : "2603a47f985f514e4c9336b4a1686ae3"
   } ]
 }

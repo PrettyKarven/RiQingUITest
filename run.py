@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # -s : 打印信息
     # -m ：运行含标签的用例
     # pytest.main(["-vs", f"{cur_path}\\TestCase\\plananalysiscase\\test_planal.py", "--alluredir", report_path])
-    pytest.main(["-vs", f"{cur_path}\\TestCase\\dayplancase\\test_dayplan.py::TestQueryMyPlan", "--alluredir", report_path])
+    pytest.main(["-vs", f"{cur_path}\\TestCase\\weekplancase\\test_weekplan.py", "--alluredir", report_path])
     # pytest.main(
     #     ["-vs", "-m", "baidu_search or test_demo", f"{cur_path}\\TestCase\\test_001_baiduSearch.py::TestBaiduSearch",
     #      "--alluredir", report_path])

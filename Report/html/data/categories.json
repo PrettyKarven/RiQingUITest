@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='add-body']/tr/td[1]/div/div/div/ul/li[2]\"}\n  (Session info: chrome=107.0.5304.88)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0053ACD3+2075859]\n\tOrdinal0 [0x004CEE61+1633889]\n\tOrdinal0 [0x003CB7BD+571325]\n\tOrdinal0 [0x003FAC2F+764975]\n\tOrdinal0 [0x003FAE1B+765467]\n\tOrdinal0 [0x0042D0F2+970994]\n\tOrdinal0 [0x00417364+881508]\n\tOrdinal0 [0x0042B56A+963946]\n\tOrdinal0 [0x00417136+880950]\n\tOrdinal0 [0x003EFEFD+720637]\n\tOrdinal0 [0x003F0F3F+724799]\n\tGetHandleVerifier [0x007EEED2+2769538]\n\tGetHandleVerifier [0x007E0D95+2711877]\n\tGetHandleVerifier [0x005CA03A+521194]\n\tGetHandleVerifier [0x005C8DA0+516432]\n\tOrdinal0 [0x004D682C+1665068]\n\tOrdinal0 [0x004DB128+1683752]\n\tOrdinal0 [0x004DB215+1683989]\n\tOrdinal0 [0x004E6484+1729668]\n\tBaseThreadInitThunk [0x759CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A77BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A77B8E+238]",
+      "children" : [ {
+        "name" : "test_addweekplan",
+        "uid" : "480e8880d1c9eba9",
+        "parentUid" : "2bcef5ad096ce1495b0e02e201c4023a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1668069726373,
+          "stop" : 1668069757742,
+          "duration" : 31369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bcef5ad096ce1495b0e02e201c4023a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

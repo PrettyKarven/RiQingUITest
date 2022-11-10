@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "f11cae1e3bb5cfb31559ed27800f4861",
-    "name" : "查询计划",
+    "uid" : "2603a47f985f514e4c9336b4a1686ae3",
+    "name" : "新建周计划",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

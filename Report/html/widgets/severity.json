@@ -1,11 +1,11 @@
 [ {
-  "uid" : "ebb47294539ee25c",
-  "name" : "test_queryriqing",
+  "uid" : "480e8880d1c9eba9",
+  "name" : "test_addweekplan",
   "time" : {
-    "start" : 1667981965753,
-    "stop" : 1667981968464,
-    "duration" : 2711
+    "start" : 1668069726373,
+    "stop" : 1668069757742,
+    "duration" : 31369
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

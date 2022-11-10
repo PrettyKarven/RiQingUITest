@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "75202da7dc7389e1d91d0d84952e2314",
-    "name" : "TestCase.dayplancase",
+    "uid" : "34d0ecb45347825244887a66a5f2f241",
+    "name" : "TestCase.weekplancase",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

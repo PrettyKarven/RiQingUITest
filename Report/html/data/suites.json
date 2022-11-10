@@ -2,29 +2,29 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "TestCase.dayplancase",
+    "name" : "TestCase.weekplancase",
     "children" : [ {
-      "name" : "test_dayplan",
+      "name" : "test_weekplan",
       "children" : [ {
-        "name" : "TestQueryMyPlan",
+        "name" : "TestAddWeekPlan",
         "children" : [ {
-          "name" : "test_queryriqing",
-          "uid" : "ebb47294539ee25c",
-          "parentUid" : "398081608bf2cdb1d37c1135c9bac3e0",
-          "status" : "passed",
+          "name" : "test_addweekplan",
+          "uid" : "480e8880d1c9eba9",
+          "parentUid" : "9b1f9ea00e6f4b947049ff92ccf11a1f",
+          "status" : "broken",
           "time" : {
-            "start" : 1667981965753,
-            "stop" : 1667981968464,
-            "duration" : 2711
+            "start" : 1668069726373,
+            "stop" : 1668069757742,
+            "duration" : 31369
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "398081608bf2cdb1d37c1135c9bac3e0"
+        "uid" : "9b1f9ea00e6f4b947049ff92ccf11a1f"
       } ],
-      "uid" : "0d4bb9fb94ba6ee2c2f9b7312c906bb0"
+      "uid" : "3996282f1bdc5ed3585fab8cf11b41f1"
     } ],
-    "uid" : "75202da7dc7389e1d91d0d84952e2314"
+    "uid" : "34d0ecb45347825244887a66a5f2f241"
   } ]
 }
