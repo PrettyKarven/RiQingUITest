@@ -16,7 +16,8 @@ class DayplanIndex(BasePage):
     页面元素
     """
     # 左侧导航栏<我的计划>按钮
-    myplan_ele=(By.ID, "firstPageAction")
+    # myplan_ele=(By.ID, "firstPageAction")
+    myplan_ele=(By.LINK_TEXT, "我的计划")
     #我的计划iframe元素
     myplan_iframe=(By.XPATH, "/html/body/div[1]/div[3]/div[1]/div/div[1]/iframe")
     #添加按钮元素
@@ -51,8 +52,8 @@ class DayplanIndex(BasePage):
     submitplanbtn_ele=(By.ID,'saveSumDayPlan')
     #添加后消息提示框元素
     # msg=(By.XPATH,'//*[@id="layui-layer2"]/div')
-    msg=(By.XPATH,'//*[starts-with(@id,"layui-layer")]/div')
-    # msg=(By.XPATH,'/html/body/div[4]')
+    # msg=(By.XPATH,'//*[starts-with(@id,"layui-layer")]/div')
+    msg=(By.XPATH,'//*[@class="layui-layer-content"]')
     #删除按钮元素
     deletedayplan_ele=(By.XPATH,'/html/body/div[2]/div[1]/div[1]/button[2]')
     #删除输入框
@@ -197,6 +198,7 @@ class DayplanIndex(BasePage):
 
     #查询日清
     def query_myplan(self,searchWord='hahah '):
+        sleep(2)
         self.logger.info("【===查询日计划操作===】")
         # 点击左侧导航栏<我的计划>按钮
         self.click_element(self.myplan_ele, model='<我的计划>按钮')
@@ -214,4 +216,9 @@ class DayplanIndex(BasePage):
 
     #获取提示消息
     def getmsg(self):
+        sleep(1)
         return self.get_text(self.msg,model='获取消息提示框信息')
+
+    # #判断元素是否存在
+    # def isisEleExist(self):
+    #     return self.isElementExist()
