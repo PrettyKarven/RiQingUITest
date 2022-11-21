@@ -1,9 +1,0 @@
-2022-10-07 21:13:10,689 - INFO dayplanpage.py [line:38]: 【===添加日清操作===】
-2022-10-07 21:13:10,690 - INFO basePage.py [line:86]: 查找"<我的计划>按钮"元素，元素定位:('id', 'firstPageAction')
-2022-10-07 21:13:16,715 - INFO basePage.py [line:138]: 点击"<我的计划>按钮",元素定位:('id', 'firstPageAction')
-2022-10-07 21:13:17,756 - INFO basePage.py [line:182]: iframe 切换操作:
-2022-10-07 21:13:18,289 - INFO basePage.py [line:188]: 切换成功
-2022-10-07 21:13:18,291 - INFO basePage.py [line:86]: 查找"添加按钮"元素，元素定位:('id', 'insertDayPlan')
-2022-10-07 21:13:18,300 - INFO basePage.py [line:138]: 点击"添加按钮",元素定位:('id', 'insertDayPlan')
-2022-10-07 21:13:26,159 - INFO conftest.py [line:26]: ==========结束执行测试用例集===========
-2022-10-07 21:13:30,291 - WARNING connectionpool.py [line:811]: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022396874588>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/69c1858e8f84f5decff2a60f3fc84661

@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Nov 03 15:31:13 CST 2022","Thu Nov 03 15:31:23 CST 2022","10016","TestCase.dayplancase","test_dayplan","TestQueryMyPlan","","","test_queryriqing",""
-"broken","Thu Nov 03 15:31:03 CST 2022","Thu Nov 03 15:31:13 CST 2022","10062","TestCase.dayplancase","test_dayplan","TestDeleteMyPlan","","","test_delriqing",""
-"broken","Thu Nov 03 15:30:53 CST 2022","Thu Nov 03 15:31:03 CST 2022","10029","TestCase.dayplancase","test_dayplan","TestAddMyPlan","","","test_addriqing[data0]",""
