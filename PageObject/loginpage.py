@@ -34,7 +34,10 @@ class LoginIndex(BasePage):
         # 输入密码
         self.input_text(self.password_input, text=self.password, model='密码框')
         # 点击登录
-        self.click_element(self.submit_btn, model='点击登录')
+        # self.click_element((By.XPATH,'/html/body/div[1]/div[2]/div/div[2]/div[3]'), model='点击父元素')
+        js = 'document.getElementById({}).click();'.format(self.submit_btn)
+        self.driver.execute_script(js)
+        # self.click_element(self.submit_btn, model='点击登录')
         # 搜索后等待界面加载完成
         self.driver.implicitly_wait(10)
         sleep(3)
