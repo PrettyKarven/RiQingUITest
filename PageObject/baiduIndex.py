@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2021/9/1 19:32
-# @Author  : CuiShuangqi
-# @Email   : 1159533975@qq.com
-# @File    : baiduIndex.py
 from Common.basePage import BasePage
 from selenium.webdriver.common.by import By
 from time import sleep

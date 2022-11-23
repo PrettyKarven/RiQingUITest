@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2021/9/1 16:31
-# @Author  : CuiShuangqi
-# @Email   : 1159533975@qq.com
-# @File    : basePage.py
 
 import logging
 import os

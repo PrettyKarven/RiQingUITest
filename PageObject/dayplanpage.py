@@ -19,7 +19,7 @@ class DayplanIndex(BasePage):
     # myplan_ele=(By.ID, "firstPageAction")
     myplan_ele=(By.LINK_TEXT, "我的计划")
     #我的计划iframe元素
-    myplan_iframe=(By.XPATH, "/html/body/div[1]/div[3]/div[1]/div/div[1]/iframe")
+    myplan_iframe=(By.XPATH, "/html/body/div[1]/div[3]/div[1]/div/div[2]/iframe")
     #添加按钮元素
     addplan_ele=(By.ID, "insertDayPlan")
     #添加框iframe元素
